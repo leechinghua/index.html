@@ -12,10 +12,11 @@ h4,
 h5,
 h6,
 p {
-  font-weight: normal;
+  /* font-weight: normal; */
   margin: 0;
   padding: 0;
 }
+
 
 :root {
   --primary-1: #5f8ea5;
@@ -23,6 +24,9 @@ p {
   --secondary-1: #d19e8a;
   --secondary-2: #f6f1e4;
   --secondary-3: #f9f6ec;
+}
+body {
+  background-color: var(--secondary-3);
 }
 
 .left {
@@ -40,10 +44,9 @@ p {
   align-self: stretch;
 }
 .avatar {
-  width: 400px;
-  height: 421.519px;
-  flex-shrink: 0;
-  /* border-radius: 0px 0px 0px 224px; */
+ 
+  border-radius: 0px 0px 0px 224px;
   box-shadow: -20px 20px 0px var(--secondary-1);
+  padding: 0;
 }
 
