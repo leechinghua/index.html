@@ -44,9 +44,21 @@ body {
   align-self: stretch;
 }
 .avatar {
- 
   border-radius: 0px 0px 0px 224px;
   box-shadow: -20px 20px 0px var(--secondary-1);
   padding: 0;
+}
+.title1{
+  position: relative;
+  color: var(--secondary-1);
+}
+.cloudImg{
+  position: absolute;
+  width: 350px;
+  height: 150px;
+  top: 50%;  /* 可以根據需要調整 */
+  left: 50%; /* 可以根據需要調整 */
+  transform: translate(-50%, -50%); /* 將圖片中心對齊父元素的中心 */
+  z-index: -1;
 }
 
