@@ -34,6 +34,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+.section2{
+  flex-direction: column;
+}
 
 .navbar {
   height: 56px;
@@ -71,8 +74,8 @@ body {
   position: absolute;
   width: 350px;
   height: 150px;
-  top: 50%;  /* 可以根據需要調整 */
-  left: 50%; /* 可以根據需要調整 */
+  top: 50%;  
+  left: 50%; 
   transform: translate(-50%, -50%); /* 將圖片中心對齊父元素的中心 */
   z-index: -1;
 }
