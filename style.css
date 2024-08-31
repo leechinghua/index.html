@@ -28,6 +28,17 @@ p {
 body {
   background-color: var(--secondary-3);
 }
+.section {
+  height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  height: 56px;
+}
+
 
 .left {
   display: inline-flex;
