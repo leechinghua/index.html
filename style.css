@@ -68,15 +68,27 @@ body {
 }
 .title1{
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* 確保容器能填滿可用空間 */
+  text-align: center; /* 確保文字居中對齊 */
+}
+.title1Text{
+  position: absolute;
   color: var(--secondary-1);
 }
-.cloudImg{
-  position: absolute;
-  width: 350px;
-  height: 150px;
-  top: 50%;  
-  left: 50%; 
-  transform: translate(-50%, -50%); /* 將圖片中心對齊父元素的中心 */
-  z-index: -1;
+.cloudImg {
+  margin-bottom: 10px; /* 與文字之間的間距 */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); /* 添加陰影 */
 }
-
+footer{
+  display: flex;
+  flex-direction: column;
+  height: 146px;
+  opacity: 0.5;
+  background: var(--grey-400, #C4C4C4);
+  justify-content: center;
+  text-align: center;
+}
