@@ -24,6 +24,9 @@ p {
   --secondary-2: #f6f1e4;
   --secondary-3: #f9f6ec;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   position: relative;
   background-color: var(--secondary-3);
