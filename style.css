@@ -40,6 +40,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+.section1{
+  height: 100vh;
+}
 .section2{
   flex-direction: column;
 }
