@@ -38,6 +38,10 @@ body {
   width: 100%;
   z-index: 1000;
 }
+.nav-link:hover {
+  color: var(--secondary-1);
+}
+
 .section {
   display: flex;
   align-items: center;
