@@ -5,17 +5,17 @@
   box-sizing: border-box;
   font-family: "Merriweather", serif;
 }
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6,
 p {
-  /* font-weight: normal; */
+  font-weight: normal; 
   margin: 0;
   padding: 0;
-}
+}*/
 
 :root {
   --primary-1: #5f8ea5;
@@ -48,9 +48,13 @@ body {
   justify-content: center;
 }
 .section1{
-  height: 100vh;
+  min-height: 100vh;
 }
 .section2{
+  flex-direction: column;
+  min-height: 100vh;
+}
+.section3{
   flex-direction: column;
   min-height: 100vh;
 }
