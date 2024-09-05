@@ -111,6 +111,7 @@ body {
   align-items: center;
   height: 100%; /* 確保容器能填滿可用空間 */
   text-align: center; /* 確保文字居中對齊 */
+  margin-top: 60px;
 }
 .title1Text{
   position: absolute;
